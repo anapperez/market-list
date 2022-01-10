@@ -8,7 +8,8 @@ data: {
        { nombre: 'platano', cantidad: 12}
     ],
 
-    newItem: ''
+    newItem: '',
+    total: 0
     
  },
 
@@ -16,9 +17,19 @@ data: {
      addItem () {
         this.list.push({
             nombre: this.newItem, cantidad: 0
-        })
+        });
+       this.newItem = ''
      }
-    
-   
+ 
+ },
+
+ computed: {
+     sumItem () {
+      this.total = 0;
+      for(fruta of this.list){
+          this.total = this.total + fruta.cantidad;
+      }
+      return this.total;
+     }
  }
 })
