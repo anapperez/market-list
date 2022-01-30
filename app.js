@@ -1,11 +1,14 @@
 const app = new Vue({
 el: '#app',
 data: {
-    titulo: 'Shopping List',
+    titulo: 'Lista de Almacen',
     list: [
-       { nombre: 'pera', cantidad: 0},
-       { nombre: 'manzana', cantidad: 9},
-       { nombre: 'platano', cantidad: 12}
+       { nombre: 'Pera', cantidad: 0},
+       { nombre: 'Manzana', cantidad: 9},
+       { nombre: 'Platano', cantidad: 12},
+       { nombre: 'Mango', cantidad: 1},
+       { nombre: 'Fresa', cantidad: 6},
+       { nombre: 'Huevos', cantidad: 8}
     ],
 
     newItem: '',
