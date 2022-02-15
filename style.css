@@ -1,0 +1,87 @@
+body {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ background-color: #F9EBEA;
+ font-size: 16px;
+}
+
+#app {
+   align-items: center;
+   margin-left: 600px;
+}
+
+.titulo {
+    color: #641E16;
+    font-size: 2.5em;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #EC7063;
+    color: black;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+ background-position: right;
+ background-image: linear-gradient(to left, #E6B0AA, #D98880, #CD6155);
+}
+
+.barra {
+    height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.listaFruta {
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.btnCantidad1 {
+    background-color: #EC7063;
+    color: black;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.btnCantidad1:hover {
+    background-position: right;
+    background-image: linear-gradient(to left, #E6B0AA, #D98880, #CD6155);
+   }
+
+   .btnCantidad2 {
+    background-color: #EC7063;
+    color: black;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnCantidad2:hover {
+    background-position: right;
+    background-image: linear-gradient(to left, #E6B0AA, #D98880, #CD6155);
+   }
+
+   .sinStock {
+       color: red;
+       font-weight: bold;
+   }
+
+   .total {
+       font-weight: bolder;
+       font-size: 1.5em;
+       color: #641E16;
+   }
+
